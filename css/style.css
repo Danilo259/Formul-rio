@@ -1,0 +1,63 @@
+form {
+    /*Centralizar o formulário*/
+    margin: 0 auto;
+    width: 400px;
+    
+    /*cor do formulario*/
+    background-color: cyan;
+
+    /*Ver bordas*/
+    padding: 5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+form div + div {
+    /*Espaços entre os campos do form*/
+    margin-top: 1em;
+}
+
+label {
+    /*Alinhamento das label*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+
+}
+
+input, textarea {
+    /*Fonte padrão para todos os campos de texto*/
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*Padronizar os tamanhos dos campos de texto*/
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /*Bordas dos campos de texto*/
+    border: 1px solid #999;
+
+}
+
+input:focus,  textarea:focus {
+    /*Dar destaque a caixa de texto selecionada*/
+    border color: #000;
+}
+
+textarea {
+    /*Alinhar o campo de texto de varias linhas*/
+    vertical-align: top;
+
+    /*Espaço da caixa de texto*/
+    height: 5em;
+
+    /*Para o textarea funcionar em todos os browsers*/
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+button {
+    margin-left: 0.5px;
+}
